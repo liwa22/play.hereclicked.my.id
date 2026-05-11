@@ -1,0 +1,33 @@
+[
+  {
+    "id": "movie-1-part-1",
+    "Judul": "Movie Part 1",
+    "Description": "Part pertama",
+    "Url": "https://cdn.videy.co/ZZnUeRRh1.mp4",
+
+    "related": [
+      "movie-1-part-2",
+      "movie-1-part-3"
+    ]
+  },
+
+  {
+    "id": "movie-1-part-2",
+    "Judul": "Movie Part 2",
+    "Description": "Part kedua",
+    "Url": "https://cdn.videy.co/KtDlWaAc1.mp4",
+
+    "related": [
+      "movie-1-part-3"
+    ]
+  },
+
+  {
+    "id": "movie-1-part-3",
+    "Judul": "Movie Part 3",
+    "Description": "Part terakhir",
+    "Url": "https://cdn.videy.co/sn50iMc31.mp4",
+
+    "related": []
+  }
+]
