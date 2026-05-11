@@ -9,14 +9,9 @@
 
 <script>
 
-// GET CURRENT PATH
 const path = window.location.pathname;
 
-// REMOVE "/"
-const cleanPath = path.replace(/^\/+/,'');
-
-// REDIRECT TO HASH ROUTE
-window.location.replace('/#/' + cleanPath);
+window.location.replace('/#' + path);
 
 </script>
 
@@ -29,8 +24,6 @@ display:flex;
 justify-content:center;
 align-items:center;
 height:100vh;
-font-family:Arial,sans-serif;
-color:white;
 }
 
 .loader{
